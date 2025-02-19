@@ -1,0 +1,206 @@
+.nav-parent{
+    height: 620px;
+    width: 100%;
+    background-image: url('../../assets/NavBackground.png');
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.nav-parent .upper-nav-portion{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.nav-parent .upper-nav-portion .upper-nav-left {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.nav-parent .upper-nav-portion .upper-nav-left select{
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 2px ;
+    color: white;
+    font-size: medium;
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/custom-font.woff2') format('woff2'),
+         url('/fonts/custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.path-to-success{
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 24px;
+    font-weight: normal;
+    font-size: 40px;
+  
+}
+.nav-parent .upper-nav-portion .upper-nav-left select option{
+    color: black;
+    font-size: medium;
+}
+.nav-parent .upper-nav-portion .upper-nav-left .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-parent .upper-nav-portion .upper-nav-right ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.nav-parent .upper-nav-portion .upper-nav-right .user{
+    border-radius: 50%;
+}
+.nav-parent .nav-body{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-box {
+    margin-top: 40px;
+    position: relative;
+    width: 40vw;
+    height: 8vh;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 80px 10px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.input-box button {
+    position: absolute;
+    right: 3px;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color:#1F4EA1 ;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 14px;
+    height: 35px;
+    width: 9vw;
+    border-radius: 5px;
+}
+
+.nav-parent .nav-body .nav-body-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden ;
+}
+.nav-parent .nav-body .nav-body-right img{
+    height: 100%;
+    width: 100%;
+    max-width: 380px;
+    max-height: 520px;
+    top: 110px;
+    object-fit: cover;
+}
+.registered-number{
+    display: flex;
+    gap: 40px;
+    margin-top: 200px;
+}
+.registered-number .regs-1{
+    display: flex;
+    gap: 2px;
+}
+.registered-number .regs-2{
+    display: flex;
+    gap: 2px;
+}
+
+.Responsive{
+    display: none;
+}
+.Searchinp{
+    display: none;
+}
+
+@media (max-width: 1028px) {
+.nav-parent{
+    display: none;
+}
+.Responsive{
+    background-image: url('../../assets//BGR1.png');
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Responsive p{
+    text-align: center;
+}
+.Searchinp{
+    margin-top: 30px;
+}
+.Searchinp {
+    display: flex;
+    align-items: center;
+    width: 388px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+   
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .Searchinp:hover, 
+  .Searchinp:focus-within {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover/focus */
+  }
+  
+  .Searchinp input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 40px; /* Space for icons */
+    font-size: 16px;
+    background: transparent;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: gray;
+  }
+  
+  .mic-icon {
+    position: absolute;
+    right: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+    }
+
+    @media (max-width: 450px) {
+        .Searchinp{
+            width: 330px;
+        }
+        }

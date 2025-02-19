@@ -1,0 +1,194 @@
+@media (max-width: 700px) {
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Left {
+        width: 90%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .Right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding-right: 183px;
+    }
+
+    .Box1 {
+        width: 90%;
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .Box1 img {
+        width: 80%; /* Adjust width for mobile */
+        max-width: 150px; /* Limit max size */
+        height: auto;
+        border-radius: 10px;
+        
+    }
+
+    .dollar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .dollar-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .msg-image {
+        width: 20px;
+        height: 15px;
+    }
+
+    .btn {
+        width: 33vw;
+      
+    }
+}
+
+
+
+
+
+
+
+.cont1 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+}
+
+.Left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+ 
+    border-radius: 10px;
+}
+.Left-btn{
+    padding: 8px 16px;
+    border: none;
+    background-color:  #0056b3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Right {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.Box1 {
+    width: 200px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    
+}
+.Box1 p{
+    color: black;
+    font-size: smaller;
+}
+
+.Box1 img {
+    width: 180px;
+    height: 130px;
+    border-radius: 10px;
+    /* margin-top: -64px; */
+    margin-left: 10px;
+    
+}
+.Box1 .dollar{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.Box1 .dollar .btn{
+    margin-top: 30px;
+    height: 6vh;
+  border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 10px;
+}
+
+.Box1 .dollar .dollar-right .msg-image{
+    margin-top: 30px;
+    width: 30px;
+    height: 20px;
+    gap: 2px;
+}
+
+ .Box1 .dollar .dollar-right .message-text {
+    gap:3px;
+}
+ .dollar-right  span{
+    color: #C6960C;
+}
+
+/* middle */
+
+.box1about{
+    margin-top: 10px;
+}
+.Box1 .box1about h3, p{
+    color: white;
+}
+
+.box1about .arrow {
+    
+    gap: 5px; 
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+}
+
+.box1about .arrow img {
+    width: 30px;  
+    height: 16px;
+
+}
+.box11 p{
+    color: white;
+}
+
+

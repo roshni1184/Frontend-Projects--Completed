@@ -1,0 +1,75 @@
+.Midd2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto; /* Centering the div */
+    width: 80%; /* Adjust width for responsiveness */
+    max-width: 1200px; /* Prevent excessive width */
+}
+
+.Right1 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.midb1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    justify-content: center; /* Center the boxes */
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.midb1 .b1 {
+    
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.b1upper-part{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.b1upper-part .part1 img{
+    height: 10vh;
+    width: 6vw;
+}
+.b1upper-part .part2{
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .Midd2 {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    .Right1 {
+        margin-top: 10px;
+    }
+
+    .midb1 {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .midb1 .b1 {
+        width: 100%; /* Full width for small screens */
+        max-width: 350px; /* Prevents it from being too wide */
+    }
+}

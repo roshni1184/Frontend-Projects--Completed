@@ -1,0 +1,191 @@
+/* Parent Footer Container */
+.footer-parent {
+    background-color: #033b8f; /* Dark Blue */
+    color: white;
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+}
+
+
+.upper-footer-portion {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* Logo & Description */
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo p {
+    max-width: 400px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/* Quick Links & Contact */
+.quick-links h4, .contact-us h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quick-links p, .contact-us p {
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.quick-links p:hover, .contact-us p:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Line */
+.hr-line {
+    border: 0;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+/* Middle Footer Section */
+.middle-footer-portion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px 0;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+
+/* Immigration & Training Sections */
+.immigration-consultant, .Training-institutes {
+    background-color: #004080; /* Slightly darker blue */
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* Headings for Each Section */
+.immigration-consultant h4, .Training-institutes h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Columns for Lists */
+.immigration-consultant-left, .Training-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Lists Formatting */
+.consultant-part1, .consultant-part2,
+.institute-part1, .institute-part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+}
+
+/* Footer Social Icons */
+.lower-footer-portion {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.footer-icons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Copyright Text */
+.last-p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 700px) {
+    .footer-parent {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .upper-footer-portion {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .logo p {
+        max-width: 90%;
+        font-size: 13px;
+    }
+
+    .quick-links, .contact-us {
+        margin-top: 15px;
+    }
+
+    .quick-links h4, .contact-us h4 {
+        font-size: 16px;
+    }
+
+    .quick-links p, .contact-us p {
+        font-size: 13px;
+    }
+
+    .middle-footer-portion {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .immigration-consultant, .Training-institutes {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .immigration-consultant-left, .Training-right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .lower-footer-portion {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .footer-icons img {
+        width: 25px;
+        margin: 5px;
+    }
+
+    .last-p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
