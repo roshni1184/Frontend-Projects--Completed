@@ -160,26 +160,26 @@
 .Searchinp {
     display: flex;
     align-items: center;
-    width: 388px; /* Adjust width as needed */
+    width: 388px; 
     border: 1px solid #ccc;
    
     padding: 10px;
     background-color: #fff;
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: box-shadow 0.3s ease-in-out;
   }
   
   .Searchinp:hover, 
   .Searchinp:focus-within {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover/focus */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
   }
   
   .Searchinp input {
     flex: 1;
     border: none;
     outline: none;
-    padding: 10px 40px; /* Space for icons */
+    padding: 10px 40px; 
     font-size: 16px;
     background: transparent;
   }
